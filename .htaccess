@@ -1,0 +1,5 @@
+RewriteEngine On
+
+
+RewriteRule ^index/([a-z]*)/([0-9]*).html$ /frontend/index.php?type=$1&page=$2
+RewriteRule ^search/(\w*)/([\S]*)/([0-9]*)$	/frontend/search.php?type=$1&data=$2&page=$3
