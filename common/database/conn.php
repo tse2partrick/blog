@@ -1,7 +1,7 @@
 <?php 
 $dsn = 'mysql:host=localhost;dbname=test2;';
 $user = 'root';
-$pass = '123123a';
+$pass = 'abcdef';
 
 try{
 	$conn = new PDO($dsn, $user, $pass);
